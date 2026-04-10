@@ -36,8 +36,15 @@ aids_model <- aidsEst(priceNames = p,
                       sym = TRUE)    # Symmetry
 summary(aids_model)
 
-prices <- c(mean(data$p_FR),mean(data$p_IT), mean(data$p_SP), mean(data$p_Other))
-shares <- c(mean(data$wFR),mean(data$wIT), mean(data$wSP), mean(data$wOther))
+prices <- c(mean(data$p_FR, na.rm = TRUE), 
+            mean(data$p_IT, na.rm = TRUE), 
+            mean(data$p_SP, na.rm = TRUE), 
+            mean(data$p_Other, na.rm = TRUE))
+
+shares <- c(mean(data$wFR, na.rm = TRUE), 
+            mean(data$wIT, na.rm = TRUE), 
+            mean(data$wSP, na.rm = TRUE), 
+            mean(data$wOther, na.rm = TRUE))
 
 prices
 shares
