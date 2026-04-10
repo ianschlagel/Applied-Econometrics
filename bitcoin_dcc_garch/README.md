@@ -14,4 +14,4 @@ This research investigates whether Bitcoin acts as a **risk-on asset** or a **sa
 ## 📂 Repository Contents
 * **`The_Duality_of_Risk_and_Safety_in_the_Bitcoin_Market.pdf`**: Full research paper including theoretical framework, empirical methodology, and results.
 ---
-*For inquiries regarding the full replication code or methodology, please contact the author.*
+*For inquiries regarding the full replication code, please contact the author.*
