@@ -11,16 +11,8 @@ This research investigates whether Bitcoin acts as a **risk-on asset** or a **sa
 * **Econometrics:** DCC-GARCH (Dynamic Conditional Correlation)
 * **Data Ingestion:** Python (`yfinance`)
 
-## 📂 Repository Structure
-* **`DCC_GARCH_Estimation.R`**: Main script for GARCH modeling and correlation testing.
-* **`Data_Ingestion.py`**: Python script used to fetch daily BTC and GSPC returns from Yahoo! Finance.
-* **`Bitcoin_Risk_Duality_Paper.pdf`**: The full working paper containing the theoretical framework and result tables.
-* **`Data/`**: Contains the raw and processed time-series data.
-* **`Figures/`**: Dynamic correlation plots for the 2020 and 2023 crisis windows.
-
-## 🚀 How to Run
-1. **Data Collection**:
-   If you wish to refresh the data, run the Python script (requires `yfinance`):
-   ```bash
-   pip install yfinance
-   python Data_Ingestion.py
+## 📂 Repository Contents
+* **`Bitcoin_Risk_Duality_Paper.pdf`**: Full research paper including theoretical framework, empirical methodology, and results.
+* **`bitcoin_garch_data.csv`**: Daily return data for Bitcoin (BTC) and the S&P 500 (GSPC) used in the analysis (2020–2025).
+---
+*For inquiries regarding the full replication code or methodology, please contact the author.*
