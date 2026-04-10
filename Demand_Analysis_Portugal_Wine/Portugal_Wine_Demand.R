@@ -3,7 +3,7 @@ library(systemfit)
 library(micEconAids)
 library(here) 
 
-data <- read_csv(here("Demand_Analysis_Portugal_Wine", "Data", "portugal_wine_data.csv"))
+data <- read_csv(here("Demand_Analysis_Portugal_Wine", "Data", "portugal_data.csv"))
 
 data <- as.data.frame(data)
 
