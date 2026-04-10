@@ -22,11 +22,12 @@ The model utilizes a **Translog Price Index** to ensure a full AIDS estimation r
 * **Italy & Spain:** Classified as **luxury goods** ($\eta_i > 1$). Spain, in particular, exhibits high price sensitivity and high substitutability, suggesting it captures the "competitive" segment of the market.
 * **Economic Growth:** Results suggest that as incomes rise in Portugal, demand for Spanish and Italian wines will grow disproportionately compared to French imports.
 
-## Repository Structure
-* `Portugal_Wine_Demand.R`: Primary estimation script using the `here` library for universal portability.
-* `Data/`: Contains cleaned CSV import data (Prices, Quantities, and Budget Shares) sourced from the **FAO of the United Nations (1987-2023)**.
+## 📂 Repository Structure
+* **`Portugal_Wine_Demand.R`**: Primary estimation script utilizing the `here` library for universal path compatibility and reproducibility.
+* **`Portugal_Wine_Demand_Paper.pdf`**: The complete research paper detailing the theoretical framework, data transformations, and final elasticity results.
+* **`Data/`**: Contains cleaned CSV import data (Prices, Quantities, and Budget Shares) sourced from the **FAO of the United Nations (1987-2023)**.
 
-## How to Run
-1. Ensure R is installed along with dependencies:
+## 🚀 How to Run
+1. **Prerequisites**: Ensure you have R installed. You will need to install the following dependencies:
    ```r
    install.packages(c("tidyverse", "systemfit", "micEconAids", "here"))
