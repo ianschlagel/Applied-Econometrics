@@ -13,6 +13,5 @@ This research investigates whether Bitcoin acts as a **risk-on asset** or a **sa
 
 ## 📂 Repository Contents
 * **`Bitcoin_Risk_Duality_Paper.pdf`**: Full research paper including theoretical framework, empirical methodology, and results.
-* **`bitcoin_garch_data.csv`**: Daily return data for Bitcoin (BTC) and the S&P 500 (GSPC) used in the analysis (2020–2025).
 ---
 *For inquiries regarding the full replication code or methodology, please contact the author.*
