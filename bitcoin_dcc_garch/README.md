@@ -1,7 +1,7 @@
 # The Duality of Risk and Safety in the Bitcoin Market
 
 ## 📋 Project Overview
-This research investigates whether Bitcoin acts as a **risk-on asset** or a **safe-haven asset** by analyzing its response to distinct macroeconomic shocks. Utilizing a **DCC-GARCH** (Dynamic Conditional Correlation) framework, I test the hypothesis that Bitcoin serves as a "Schelling Point" for systemic risk during banking crises, while behaving as a speculative risk-on asset during general market uncertainty (e.g., the Covid-19 pandemic).
+This research investigates whether Bitcoin acts as a **risk-on asset** or a **safe-haven asset** by analyzing its response to distinct macroeconomic shocks. Utilizing a **DCC-GARCH** (Dynamic Conditional Correlation) framework, I test the hypothesis that Bitcoin serves as a quality asset and "Schelling Point" during banking crises, while behaving as a speculative risk-on asset during general market uncertainty (e.g., the Covid-19 pandemic).
 
 ### Key Findings
 * **COVID-19 (General Crisis):** Bitcoin correlation with the S&P 500 remained positive (~0.40), confirming its role as a risk-on asset.
