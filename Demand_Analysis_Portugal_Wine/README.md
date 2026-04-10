@@ -25,7 +25,6 @@ The model utilizes a **Translog Price Index** to ensure a full AIDS estimation r
 ## Repository Structure
 * `Portugal_Wine_Demand.R`: Primary estimation script using the `here` library for universal portability.
 * `Data/`: Contains cleaned CSV import data (Prices, Quantities, and Budget Shares) sourced from the **FAO of the United Nations (1987-2023)**.
-* `Results/`: Technical summary of Marshallian and Hicksian elasticities.
 
 ## How to Run
 1. Ensure R is installed along with dependencies:
