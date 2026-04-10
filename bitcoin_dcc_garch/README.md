@@ -10,8 +10,6 @@ This research investigates whether Bitcoin acts as a **risk-on asset** or a **sa
 ## 🛠 Technical Stack
 * **Econometrics:** DCC-GARCH (Dynamic Conditional Correlation)
 * **Data Ingestion:** Python (`yfinance`)
-* **Estimation & Visualization:** R (`tidyverse`, `rmgarch`, `ggplot2`)
-* **Typesetting:** LaTeX
 
 ## 📂 Repository Structure
 * **`DCC_GARCH_Estimation.R`**: Main script for GARCH modeling and correlation testing.
