@@ -17,3 +17,4 @@ This research investigates whether Bitcoin acts as a **risk-on asset** or a **sa
 * **`The_Duality_of_Risk_and_Safety_in_the_Bitcoin_Market.pdf`**: The full technical paper, including the theoretical framework on focal points and detailed regression tables.
 
 ## 🛠 How to Replicate
+Run: **`BTC_MacroCrisis.do`**
