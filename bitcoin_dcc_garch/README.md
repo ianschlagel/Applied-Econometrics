@@ -12,6 +12,8 @@ This research investigates whether Bitcoin acts as a **risk-on asset** or a **sa
 * **Data Ingestion:** Python (`yfinance`)
 
 ## 📂 Repository Contents
-* **`The_Duality_of_Risk_and_Safety_in_the_Bitcoin_Market.pdf`**: Full research paper including theoretical framework, empirical methodology, and results.
----
-*For inquiries regarding the full replication code, please contact the author.*
+* **`BTC_MacroCrisis.do`**: The Stata replication script. It includes data cleaning, DCC-GARCH estimation, Newey-West robustness checks, and Wald tests for hypothesis testing.
+* **`macro_data.csv`**: Daily return data for BTC and the S&P 500 sourced via the `yfinance` API.
+* **`The_Duality_of_Risk_and_Safety_in_the_Bitcoin_Market.pdf`**: The full technical paper, including the theoretical framework on focal points and detailed regression tables.
+
+## 🛠 How to Replicate
